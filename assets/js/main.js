@@ -163,4 +163,8 @@
     $('.venobox').venobox();
   });
 
+  $(document).ready(function () {
+    $('#loginModals').modal('show');
+  });
+
 })($);

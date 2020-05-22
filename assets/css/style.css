@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   #intro .intro-content h2 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 34px;
   }
@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .intro-content .btn-get-started, 
 #intro .intro-content .btn-projects {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   outline: none;
@@ -601,7 +601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #0c2e8a;
   font-weight: 700;
   font-size: 36px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 #about .content h3 {
@@ -1099,7 +1099,7 @@ ul {
   font-size: 15px;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+#contact .php-email-form input:focus, #contact .php-email-form textarea:focus {
   background-color: #50d8af;
 }
 
@@ -1157,4 +1157,63 @@ ul {
 
 #footer .credits a {
   color: #0c2e8a;
+}
+
+/* modal section located an the end of the html page */
+.container-wrapper {
+  padding: 2rem 0rem;
+}
+
+@media (min-width: 576px){
+  .modal-dialog {
+    max-width: 400px;
+  
+  }
+  
+  .modal-dialog .modal-content {
+      padding: 1rem;
+    }
+}
+
+.modal-header .close {
+    margin-top: -1.5rem;
+}
+
+.form-title {
+  margin: -2rem 0rem 2rem;
+}
+
+.form-title h4{
+ color: #0c2e8a;
+}
+
+.btn-round {
+  border-radius: 3rem;
+}
+
+.btn-accent {
+  background-color: #18d26e;
+}
+
+.delimiter {
+  padding: 1rem;  
+  color: #18d26e;
+  font-size: 0.8em;
+}
+
+.social-buttons .btn{
+    margin: 0 0.5rem 1rem;
+}
+
+.signup-section {
+  padding: 0.3rem 0rem;
+}
+
+.note-info{
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #50d8af;
+  font-size: 0.7em;
+  margin-bottom: 2em !important;
+  text-align: start;
 }
