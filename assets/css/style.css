@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   display: none;
   background: #50d8af;
+  border: 2px solid #ffffff;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -1139,9 +1140,9 @@ ul {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f2f5f8;
-  padding: 0 0 30px 0;
-  font-size: 14px;
+  background: #51d8af;
+  padding: 2em 0 2em 0;
+  font-size: 16px;
 }
 
 #footer .copyright {
@@ -1152,11 +1153,11 @@ ul {
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: #555;
+  color: rgba(255, 255, 255, 0.37);
 }
 
 #footer .credits a {
-  color: #0c2e8a;
+  color: #222e2a70;
 }
 
 /* modal section located an the end of the html page */
