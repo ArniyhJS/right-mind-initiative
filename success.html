@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/success.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,25 +12,21 @@
 </head>
 
 <body>
-    <div class="text-center">
-        <!-- Button HTML (to Trigger Modal) -->
-        <a href="#loginModals" class="trigger-btn" data-toggle="modal">Click to Open Success Modal</a>
-    </div>
 
     <!-- Modal HTML -->
-    <div id="loginModals" class="modal fade">
+    <div id="successModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-confirm">
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="icon-box">
                         <i class="material-icons">&#xE876;</i>
                     </div>
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
                 </div>
                 <div class="modal-body text-center">
-                    <h4>Great!</h4>
+                    <h4>Thank You!</h4>
                     <p>Your donation was successful</p>
-                    <p>tshank you for your immense support</p>
                     <a href="https://www.rightmindinitiative.com" class="btn btn-success"><span>Home Page</span><i
                             class="material-icons">&#xE5C8;</i>
                     </a>
@@ -41,9 +36,10 @@
         </div>
     </div>
 
-    <script src="./assets/js/main.js"></script>
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/success.js"></script>
 </body>
 
 </html>
