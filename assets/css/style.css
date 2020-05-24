@@ -1153,11 +1153,11 @@ ul {
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.37);
+  color: rgba(255, 255, 255, 0);
 }
 
 #footer .credits a {
-  color: #222e2a70;
+  color: #222e2a00;
 }
 
 /* modal section located an the end of the html page */
